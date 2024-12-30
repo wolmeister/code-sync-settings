@@ -1,0 +1,148 @@
+{
+  // Base
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggest.preview": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.fontFamily": "Dank Mono",
+  // Theme
+  "workbench.iconTheme": "material-icon-theme",
+  // "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorCustomizations": {
+    "[Night Owl]": {
+      "minimapGutter.modifiedBackground": "#425882",
+      "editorOverviewRuler.modifiedForeground": "#394b70",
+      "editorGutter.modifiedBackground": "#394b70"
+    }
+  },
+  // Terminal
+  // "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  // "terminal.integrated.scrollback": 100000,
+  // Prettier
+  "prettier.endOfLine": "lf",
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  // Eslint
+  "eslint.debug": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "mdx"
+  ],
+  // Files
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.lh": true
+  },
+  // Git
+  "scm.defaultViewMode": "tree",
+  "git.autoRepositoryDetection": "subFolders",
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+  // "[xml]": {
+  //   "editor.defaultFormatter": "PrateekMahendrakar.prettyxml"
+  // },
+  // "[csharp]": {
+  //   "editor.defaultFormatter": "ms-dotnettools.csharp"
+  // },
+  // "[prisma]": {
+  //   "editor.defaultFormatter": "Prisma.prisma"
+  // },
+  "editor.linkedEditing": false,
+  "cSpell.userWords": [
+    "Abortable",
+    "ACCOUNTVERIFICATION",
+    "appwrite",
+    "babybook",
+    "Babybook",
+    "BABYBOOK",
+    "biomejs",
+    "bunx",
+    "clsx",
+    "DATESTAMP",
+    "dayjs",
+    "DEEPGRAM",
+    "Dexie",
+    "Fedex",
+    "Filestack",
+    "Firestore",
+    "fontawesome",
+    "fontkit",
+    "fortawesome",
+    "hasher",
+    "imask",
+    "jimbos",
+    "kallof",
+    "linaria",
+    "LOCIZE",
+    "logomark",
+    "lottie",
+    "mpegurl",
+    "msgpack",
+    "multistream",
+    "nanos",
+    "napi",
+    "nolib",
+    "offsetted",
+    "outdir",
+    "outfile",
+    "OVERLAYED",
+    "Paywalled",
+    "Pdfs",
+    "playt",
+    "protobuf",
+    "remento",
+    "RRHC",
+    "ruid",
+    "Signin",
+    "solana",
+    "soniox",
+    "supabase",
+    "Swipable",
+    "swiper",
+    "tanstack",
+    "toastify",
+    "typeform",
+    "Typeform",
+    "vclock",
+    "VERCEL",
+    "vidstack",
+    "vite",
+    "wasmoon",
+    "webm",
+    "webp",
+    "Wolmeister",
+    "wordmark",
+    "Wordmark",
+    "wowa",
+    "wyhash",
+    "Xmark",
+    "zustand"
+  ],
+  "gitlens.rebaseEditor.ordering": "asc",
+  "cSpell.language": "en,pt-BR"
+}
