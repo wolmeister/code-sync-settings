@@ -1,0 +1,92 @@
+{
+  // Base
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggest.preview": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  // "editor.fontFamily": "",
+  "terminal.integrated.defaultProfile.linux": "fish",
+  //  Theme
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  // Prettier
+  "prettier.endOfLine": "lf",
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  // Eslint
+  "eslint.debug": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "mdx"
+  ],
+  // Git
+  "scm.defaultViewMode": "tree",
+  "git.autoRepositoryDetection": "subFolders",
+  "gitlens.rebaseEditor.ordering": "asc",
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+  // Go
+  "go.goroot": "/home/victor-dev/Desktop/programming/go",
+  // Files
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.lh": true
+  },
+  // Spell check
+  "cSpell.language": "en,pt-BR",
+  "cSpell.userWords": [
+    "Ansi",
+    "BABYBOOK",
+    "datadog",
+    "deepgram",
+    "Deepgram",
+    "filestack",
+    "Filestack",
+    "firestore",
+    "github",
+    "hsla",
+    "linaria",
+    "openai",
+    "progressbar",
+    "ruid",
+    "Ruid",
+    "schollz",
+    "segmentio",
+    "sendgrid",
+    "twilio",
+    "vclock",
+    "vidstack",
+    "Wago",
+    "Xmark"
+  ],
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  }
+}
